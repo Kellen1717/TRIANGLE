@@ -20,31 +20,88 @@ Kellen=turtle.Turtle()
 
 
 def triangle(length):
-  Kellen.fillcolor("gold")
   Kellen.begin_fill()
   x = 0
-  while x < 4:
+  
+  while x < 20000000:
     Kellen.forward(length)
     Kellen.right(120)
+    Kellen.forward(length)
+    Kellen.right(120) 
+    Kellen.forward(length)
+    Kellen.color('red', 'yellow')
+    Kellen.fillcolor()
+    
+    
+    Kellen.right(20)
     x += 1
-  Kellen.end_fill()
-
-
-def triangle(length):
-  Kellen.fillcolor("gold")
-  Kellen.begin_fill()
-  x = 0
-  while x < 4:
     Kellen.forward(length)
     Kellen.right(120)
+    Kellen.forward(length)
+    Kellen.right(120) 
+    Kellen.forward(length)
+    Kellen.color('purple', 'yellow')
+    
+    Kellen.right(20)
     x += 1
+    Kellen.forward(length)
+    Kellen.right(120)
+    Kellen.forward(length)
+    Kellen.right(120) 
+    Kellen.forward(length)
+    Kellen.color('green')
+    
+    Kellen.right(20)
+    x += 1
+    Kellen.forward(length)
+    Kellen.right(120)
+    Kellen.forward(length)
+    Kellen.right(120) 
+    Kellen.forward(length)
+    Kellen.color('orange', 'yellow')
+    
+    Kellen.right(20)
+    x += 1
+    Kellen.forward(length)
+    Kellen.right(120)
+    Kellen.forward(length)
+    Kellen.right(120) 
+    Kellen.forward(length)
+    Kellen.color('hot pink', 'yellow')
+    
+    
+    Kellen.right(20)
+    x += 1
+    Kellen.forward(length)
+    Kellen.right(120)
+    Kellen.forward(length)
+    Kellen.right(120) 
+    Kellen.forward(length)
+    Kellen.color('blue', 'yellow')
+    
+    Kellen.right(20)
+    x += 1
+    Kellen.forward(length)
+    Kellen.right(120)
+    Kellen.forward(length)
+    Kellen.right(120) 
+    Kellen.forward(length)
+    Kellen.color('yellow', 'yellow')
+    
+    Kellen.right(5)
+    x += 1
+
+
+
+
+
+
+
+
+    
   Kellen.end_fill()
   
-
-
-
-triangle(300)
-
+triangle(200)
 
 
 
